@@ -1,5 +1,6 @@
 package com.johnnsantana.cryptotracker.crypto.domain
 
+
 data class Coin(
     val id: String,
     val rank: Int,
@@ -7,5 +8,5 @@ data class Coin(
     val symbol: String,
     val marketCapUsd: Double,
     val priceUsd: Double,
-    val changePercent24Hr: Double
+    val changePercent24Hr: Double,
 )
